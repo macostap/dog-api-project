@@ -1,6 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 20px;
-  }
-  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f4f8; 
+  color: #333;
+}
+
+h1 {
+  color: #2c3e50; 
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #6c9bd2; 
+  color: white;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #5a8ac2;
+  transform: translateY(-1px);
+}
+
+#dog-info {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.breed-card {
+  background-color: #ffffff;
+  border: 1px solid #d0d8e4;
+  border-radius: 12px;
+  padding: 15px;
+  width: 220px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.breed-card:hover {
+  transform: translateY(-3px);
+}
